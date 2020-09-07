@@ -6,7 +6,7 @@ export default function Intro() {
       <h1>Hillel Front End Pro Company</h1>
       <h2>Мы превращаем идеи в реальность!</h2>
       <div>
-        <a className='arrow' href=' '> </a>
+        <a className='arrow' href='#header_down'> </a>
       </div>
     </div>
   );
