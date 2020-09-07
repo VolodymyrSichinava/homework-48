@@ -36,3 +36,239 @@
     transform: rotate(360deg);
   }
 }
+
+.wrapper{
+  background: url(./images/background.jpg);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.wrapper h1 {
+  margin: 0;
+  color:white;
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 50px);
+  font-size: 60px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.wrapper h2 {
+  margin: 0;
+  color:white;
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 50px);
+  font-size: 40px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.arrow {
+  background: url(./images/downarrow.png) 0 -42px no-repeat;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  top: calc(100% - 150px);
+  left: calc(50% - 21px);
+  animation: infinite-arrow 2s infinite ease;
+}
+
+@keyframes infinite-arrow {
+	0%{
+		transform: translateY(0px);
+	}
+	50%{
+		transform: translateY(15px);
+	}
+	55%{
+		transform: translateY(15px);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+}
+
+/* ABOUT US */
+
+#header_down {
+  width: 1120px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  min-height: 400px;
+}
+
+.us_img {
+  background:url(./images/aboutus.png);
+  width: 376px;
+  height: 372px;
+  float: left;
+}
+
+.us_text {
+  margin-left: 20px;
+  width: 630px;
+  float: right;
+}
+
+.us_text h3 {
+  font-size: 30px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.us_text p {
+  font-size: 20px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* / ABOUT US */
+
+/* COMPETENCE */
+
+.comp_wrapper {
+  min-height: 300px;
+  background: url(./images/comp.jpg);
+  padding-bottom: 1px;
+}
+
+.comp {
+  width: 1120px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.comp h3{
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.comp_text_wrapper {
+  column-count: 2;
+  column-gap: 650px;
+}
+
+.comp_text {
+  width: 260px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+.img {
+  column-count: 2;
+  column-gap: 450px;
+  position: absolute;
+  top: 105px;
+  left: 280px;
+}
+
+.comp_img {
+  width: 67px;
+  height: 67px;
+  margin-bottom: 75px;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.mouse {
+  position: absolute;
+  top: 100px;
+  left: 450px;
+}
+
+/* / COMPETENCE */
+
+/* TEAM */
+
+.team_wrapper {
+  background: url(../src/images/background_team1.png);
+  background-size: cover;
+}
+
+.content_team {
+  width: 1120px;
+  margin: auto;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.content_team .title {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Kumbh Sans', sans-serif;
+  padding-top: 10px;
+}
+
+.ceo {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  margin: auto;
+  align-items: center;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.ceo img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.team {
+  width: 1120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 17px;
+  text-align: center;
+}
+
+.person {
+  width: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+.name {
+  font-weight: 700;
+}
+
+/* /TEAM */
+
+/* WORK */
+
+.photo_wrapper {
+  margin-bottom: 10px;
+}
+
+.photo_wrapper h3 {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.photo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 1400px;
+  margin:auto;
+}
+
+.photo img {
+  margin: 15px;
+}
+/* / WORK */
